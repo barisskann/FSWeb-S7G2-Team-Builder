@@ -1,0 +1,49 @@
+body{
+    font-weight: bold;
+}
+.form-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.form-item:last-child{
+    margin-bottom: 1rem;
+}
+.btn{
+    margin-top: 1rem;
+}
+p{
+    margin: 0.5rem 0rem;
+}
+
+.list {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px ;
+}
+.list-delete {
+  display: flex;
+  justify-content: end;
+}
+.delete {
+  color: red;
+  font-size: 1.2rem;
+}
+.edit {
+  color: blue;
+  font-size: 1.2rem;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem 
+}
